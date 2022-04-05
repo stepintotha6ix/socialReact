@@ -1,0 +1,56 @@
+.formLogin {
+    display: block;
+    margin: 20px auto;
+    
+    width: 300px;
+    text-align: center;
+    
+}
+
+.title {
+    font-size: 36px;
+}
+
+.rememberMe input{
+    display: flex;
+    
+}
+
+.itemsLogin input {
+    margin: 10px 0;
+    height: 40px;
+    padding: 10px 15px;
+    font-family: inherit;
+    font-size: 1rem;
+
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+
+}
+.itemsLogin checkbox{
+    width: 60px;
+}
+.button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px #999;
+    transition: 0.2s;
+    /*position: fixed;
+    top: 87%;*/
+    
+}
+
+.button:active {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, .05);
+    transition: 0.1s;
+}

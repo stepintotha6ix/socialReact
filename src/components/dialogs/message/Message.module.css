@@ -1,0 +1,9 @@
+
+
+.messageItems{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    padding: 15px;
+}

@@ -1,0 +1,95 @@
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.photoBlock {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+}
+
+.descBlock {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.DescInfo {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 300px 800px;
+    margin: 20px 20px;
+
+}
+
+.fullName {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.statusBlock {
+
+    margin-bottom: 30px;
+
+
+}
+
+.mainInfo {
+    height: 50px;
+    padding: 15px;
+    
+    border-bottom: 2px solid white;
+    width: 570px;
+}
+
+.contacts Link {
+    display: block;
+    margin-right: 10px;
+}
+
+.contact {
+    padding-left: 10px;
+}
+
+.moreInfo {
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 250px;
+    margin-bottom: 30px;
+
+}
+
+.moreInfo:hover {
+    width: 350px;
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+
+}
+
+.menu {
+    transform: translateY(-600%);
+
+}
+
+.menu.active {
+    transform: translateY(200%);
+
+}
+
+
+.moreInfoItem {
+    margin: 5px;
+    width: 500px;
+    display: flex;
+
+    
+}
+
+.moreInfoItemName {
+    opacity: 0.5;
+    margin-right: 15px;
+}

@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding-top: 10px;
+}
+.item{
+    padding: 7px; 
+}
+.link{
+    margin-left: 20px;
+    
+}
+.item a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.item:hover {
+    background: rgba(0, 0, 0, .1);
+    
+}

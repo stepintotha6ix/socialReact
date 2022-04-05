@@ -1,0 +1,25 @@
+.profile {
+    grid-area: c;
+    background-color: bisque;
+}
+
+.item {
+    margin: 20px 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    
+}
+.item img { 
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.upPost{
+    display: flex;
+    margin-bottom: 15px;
+}
+.name{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+}

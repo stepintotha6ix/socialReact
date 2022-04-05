@@ -1,0 +1,39 @@
+.header {
+  grid-area: h;
+  background-color: antiquewhite;
+  padding-left: 70px;
+  padding-right: 105px;
+  height: 48px;
+
+
+  margin: 0 auto;
+}
+
+.header img {
+  margin: 10px;
+  width: 180px;
+  height: 30px;
+}
+
+.loginBlock {
+  float: right;
+  margin-top: 10px;
+}
+
+.loginBlock a {
+  color: black;
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  opacity: 0.5;
+  transition: 0.3s;
+  cursor: pointer;
+  
+}
+.button:hover{
+  
+  opacity: 1;
+}
